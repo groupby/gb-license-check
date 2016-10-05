@@ -42,6 +42,7 @@ const CORRECTED_WHITELIST = _.uniq(_.reduce(LICENSES_WHITELIST, (result, license
 }, []));
 
 CORRECTED_WHITELIST.push('Public Domain');
+CORRECTED_WHITELIST.push('Public domain');
 
 const moduleIsWhitelisted = (moduleWhitelist, name, version) => moduleWhitelist[name] && _.some(moduleWhitelist[name], (range) => semver.satisfies(version, range));
 

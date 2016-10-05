@@ -1,6 +1,6 @@
 {
   "name": "gb-license-check",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Check for restricted licenses",
   "main": "index.js",
   "scripts": {

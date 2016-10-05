@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: 6.4.0
+dependencies:
+  override:
+    - npm install
+test:
+  override:
+    - echo 'no tests!'
+deployment:
+  npm:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    owner: groupby
+    commands:
+      - echo "//registry.npmjs.org/:_authToken=${NPM_API_KEY}" > ~/.npmrc
+      - npm publish

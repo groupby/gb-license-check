@@ -1,4 +1,6 @@
 # gb-license-check
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/groupby/gb-license-check.svg)](https://greenkeeper.io/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db60bb9855643d19758038f061d5b94)](https://www.codacy.com/app/GroupByInc/gb-license-check?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=groupby/gb-license-check&amp;utm_campaign=Badge_Grade) [![CircleCI](https://circleci.com/gh/groupby/gb-license-check.svg?style=svg)](https://circleci.com/gh/groupby/gb-license-check) 
 
 Checks for restricted or unknown licenses.

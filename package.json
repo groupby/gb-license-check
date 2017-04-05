@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/groupby/gb-license-check#readme",
   "dependencies": {
-    "license-checker": "^8.0.0",
+    "license-checker": "^9.0.2",
     "lodash": "^4.16.3",
     "semver": "^5.3.0"
   }
